@@ -1,0 +1,85 @@
+
+body {
+	font-family: "ËÎÌו", arial, Tahoma;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	font-size: 9pt;
+	color: #000;
+}
+
+div,form,img,ul,ol,li,dl,dt,dd,p {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+img {
+	border: 0px;
+}
+
+strong {
+	font-weight: normal;
+}
+
+em {
+	font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+table th {
+	font-weight: normal;
+}
+
+input {
+	font-size: 12px;
+}
+
+.error{
+            background: url(images/err_bg.gif) no-repeat;
+            width: 695px;
+            height: 252px;
+            position: relative;
+            margin: 0 auto;
+            margin-top: 80px;
+        }
+        .error .err_title{ position:absolute; left:210px; top:22px;}
+        .error .err_content{ width:326px; height:132px; position:absolute; left:134px; top:88px; overflow:hidden; color:#515151;}
+        .error .err_content{ line-height:26px;}
+        .error .err_content  img{ margin-bottom:-2px; margin-right:4px;}
+        .error .err_content strong{ font-weight:bold; display:block;}
+        .error .err_content ul{ margin-left:10px;}
+        .err_btn{ margin-top:30px; text-align:center; border-top:dashed 1px #82ceee; padding-top:10px;}
+        .err_btn img{ margin-bottom:-2px; margin-right:4px;}
+        .error .err_content a {text-decoration: none;}
+        .error .err_content a:hover {text-decoration: underline;}
+
+.error_link {font-size: 12;}
+.error_link a {text-decoration: none;underline;}
+.error_link a:hover {text-decoration: underline;}
+
+a.combtn{background:url(images/com_btn_l.gif) no-repeat left top;height:26px;font-size:12px;padding:0px 0px 0px 3px; text-decoration:none;  display:inline-block; margin-right:8px;_height:23px;}
+a.combtn span {background:url(images/com_btn_r.gif) no-repeat right top;height:26px; line-height:26px;   display:inline-block; color:#1c4391; padding:0px 12px 0px 4px;text-align:center; cursor:hand;white-space:nowrap; WORD-BREAK: keep-all;_padding-top:3px;_height:23px;}
+a.combtn:hover {background-position:0% -26px; text-decoration:none;}
+a.combtn:hover span {background-position:100% -26px;color:#1c4391;}
+a.combtn span img{ margin-bottom:-4px; margin-right:3px;}
+
+div.btn {
+	margin: 18px 8px;
+	padding-left: 10px;
+}
+
+.ul_class li {
+	float: left;
+	padding-right: 20px;
+}

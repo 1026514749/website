@@ -1,0 +1,45 @@
+.a-div{
+overflow: hidden;
+display: block;
+}
+.a-div h2{
+display: block;
+margin: 10px;
+}
+.a-div .myselect{
+width:500px;
+height: 28px;
+}
+.a-div textarea {
+width: 500px;
+display: block;
+margin: 10px;
+}
+.a-div input[type=button] {
+padding: 5px 10px;
+}
+.wrapa{
+    overflow: hidden;
+    position:relative;
+    top: 50px;
+
+}
+.prompt1 {
+    font-size: 14px;
+    padding: 10px 30PX;
+    margin-top: 5px;
+    margin: 0 10PX;
+    background: #f9f9f9;
+    line-height: 30px;
+}
+.prompt1 .ac {
+    margin: 10px;
+}
+.auto{
+    margin: auto;
+    /*padding:0 5px;*/
+}
+.bar-wrap{
+    padding: 0px 5px;
+    overflow: hidden;
+}
